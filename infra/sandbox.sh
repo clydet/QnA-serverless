@@ -1,6 +1,6 @@
 #!/bin/bash
 DIRECTORY=$(dirname "$0")
-IMAGE_NAME=${1:-serverless}
+IMAGE_NAME=qna-sandbox
 AWS_ENV_VARIABLES=""
 WORK_DIRECTORY=$(cd $DIRECTORY/.. && pwd)
 
